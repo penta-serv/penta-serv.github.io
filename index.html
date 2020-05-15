@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>English Schoolで新しい世界へ飛び立とう。</title>
+</head>
+
+<body id="body">
+    <header>
+        <!--ヘッダーの作成-->
+        <div class="dammy-top">
+            <div class="top-container">
+                <!--<img src="image/airbnb.png" alt="logo" class="logo">-->
+                <p style="float: left; margin-top: 25px;" id="companylogo">English School</p>
+                <div class="navbar navbar-expand navbar-light ">
+                    <div class="collapse navbar-collapse" id="navbarContents">
+                        <ul class="navbar-nav mr-auto" id="navbar">
+                            <li class="nav-item top-nav top-one">
+                                <a href="#overview" class="nav-link">概要</a>
+                            </li>
+                            <li class="nav-item top-nav top-two">
+                                <a href="#lesson-propaty" class="nav-link ">受講コース</a>
+                            </li>
+                            <li class="nav-item top-nav top-three">
+                                <a href="#q-and-a" class="nav-link">Q＆A</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="start-button">
+                    <a href="#">はじめる</a>
+                </div>
+            </div>
+        </div>
+        <div class="top-picture-container">
+            <div class="start-form">
+                <div class="form-group">
+                    <form action="#" method="POST">
+                        <h1>英語力をアップして海外へ飛び立とう</h1>
+                        <p>メールアドレス<span class="badge badge-danger">必須</span></p>
+                        <input type="mail" placeholder="mail" name="meil" class="form-control mail-form">
+                        <p class="p-pass">パスワード <span class="badge badge-danger">必須</span></p>
+                        <input type="password" placeholder="password" name="password" id="password" class=form-control>
+                        <div class="btn-control">
+                            <button type="submit" class="btn btn-danger sign-up">新規登録</button>
+                            <button type="submit" class="btn btn-primary login">ログイン</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container" id="overview">
+            <!--概要の記入-->
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>選ばれる理由</h2>
+                    <p>どんな所にいても簡単に、かつ質の高い英語を学ぶことができます。 レッスンの予約やレッスンの振り返り、他の生徒との交流など 様々な機能が盛りたくさん。
+                    </p>
+                </div>
+                <div class="col-md-6 ">
+                    <h2>困った時も安心</h2>
+                    <p>学習に行き詰まった時も一人一人に専任の講師と相談メンターが付いているのでいつでも相談できます。また海外生活経験のある講師のみのため海外での生活をイメージしながらの学習ができます。</p>
+                </div>
+            </div>
+            <hr size="60px" width="20%">
+            <!--レッスンの始め方-->
+            <div class="lesson-system">
+                <h1>3ステップでLesson Start</h1>
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <h2><img src="image/check.png" alt="check picture" class="check-image">会員登録</h2>
+                        <p>まずは必要事項の記入と質問に答えて下さい。その結果から最適な講師をAIにより選び出します。</p>
+                        <a class="sign-up-button" href="#">会員登録はこちら</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h2> <img src="image/check.png" alt="check picture" class="check-image">コース選択</h2>
+                        <p>English schoolは受講コースが全部で30コースあります。この中から自分にあったコースを選んで下さい。コースは後で相談メンターとの面談時変更可能です</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2><img src="image/check.png" alt="check picture" class="check-image">受講日決定</h2>
+                        <p>受講日は月単位、週単位どちらからでもスケジューリング可能です。また急にできた隙間時間でも講師が空いていればいつでも受講することができます。</p>
+                    </div>
+                </div>
+            </div>
+            <!--インタビュー掲載-->
+            <div class="intaview">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>マンツーマン授業がいつでも好きなだけ選べる所が魅力です。講師の先生もフレンドリーで質問しやすい雰囲気で分からないと何でも聞けてすぐに実力が付きました。</h2>
+                        <p class="ol-propaty">都内勤務Aさん：月6間時間コース受講　</p>
+                        <p><span style="color: rgb(93, 190, 235);">TOEIC 640点</span>➡︎<span style="color: red; font-size: 2em;">840点(3ヶ月間)</span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="image/ol.jpeg" alt="image picture" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="lesson-propaty">
+            <div class="lesson">
+                <h2 id="corse-select">選べるコースはこちら</h2>
+                <table border="1" class="lesson-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>2時間/月</th>
+                            <th>4時間/月</th>
+                            <th>6時間/月</th>
+                            <th>8時間/月</th>
+                            <th>10時間/月</th>
+                            <th>15時間/月</th>
+                            <th>20時間/月</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h2 style="font-size: 1.5em;">初級</h2>
+                                <p>日常会話が聞き取れる</p>
+                            </td>
+                            <td>&yen;5,000</td>
+                            <td>&yen;8,000</td>
+                            <td>&yen;11,000</td>
+                            <td>&yen;14,000</td>
+                            <td>&yen;16,000</td>
+                            <td>&yen;18,000</td>
+                            <td>&yen;20,000</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2 style="font-size: 1.5em;">中級</h2>
+                                <p>日常会話ができる</p>
+                            </td>
+                            <td>&yen;8,000</td>
+                            <td>&yen;12,000</td>
+                            <td>&yen;16,000</td>
+                            <td>&yen;20,000</td>
+                            <td>&yen;24,000</td>
+                            <td>&yen;26,000</td>
+                            <td>&yen;28,000</td>
+                        </tr>
+                        <td>
+                            <h2 style="font-size: 1.5em;"> 上級</h2>
+                            <p>円滑なコミュニケーション が取れる</p>
+                        </td>
+                        <td>&yen;15,000</td>
+                        <td>&yen;18,000</td>
+                        <td>&yen;21,000</td>
+                        <td>&yen;24,000</td>
+                        <td>&yen;27,000</td>
+                        <td>&yen;30,000</td>
+                        <td>&yen;32,000</td>
+                    </tbody>
+                </table>
+                <div class="select-box">
+                    <!--メディアクエリ用セレクトボックス-->
+                    <select name="lesson" id="lesson-box" class="list-box">
+                    <option value="0">レッスンレベルを選択</option>
+                    <option value="1">初級：日常会話が聞き取れる</option>
+                    <option value="2">中級：日常会話ができる</option>
+                    <option value="3">上級：円滑なコミュニケーションが取れる</option>
+                    </select>
+                    <select name="lesson-time" id="lesson-time" class="list-box">
+                    <option value="0">レッスン時間を選択</option>
+                    <option value="1">2時間/月</option>
+                    <option value="2">4時間/月</option>
+                    <option value="3">6時間/月</option>
+                    <option value="4">8時間/月</option>
+                    <option value="5">10時間/月</option>
+                    <option value="6">15時間/月</option>
+                    <option value="7">20時間/月</option>
+                    </select>
+                    <p id="lesson-fee"></p>
+                </div>
+                <p>&lowast;料金は全て税別表示です。</p>
+            </div>
+            <h3 style="margin: 40px; text-align: center; border-bottom: 1px solid rgba(175, 175, 175, 0.616); padding: 10px;">
+                シンプルな支払い方法
+            </h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>様々な支払いに対応</h4>
+                    <p>クレジット支払い、振込み支払いに加え電子マネー決済にも対応しております。</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>手数料が安い</h4>
+                    <p>会員登録費用は一切かかりません。またレッスンの一括予約で支払い金額より最大5％引きの特典もございます。</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>安心の払い戻し</h4>
+                    <p>万が一レッスンにご満足頂けなければ全額返金させていただきます。*</p>
+                    <p style="color: rgba(0,0,0,.5); margin-bottom: 0;">*:払い戻しには条件がございますので </p>
+                    <p style="color: rgba(0,0,0,.5); margin-top: 0;"> <a href="#" style="color: rgba(0,0,0,.5);">こちら</a>をご確認下さい。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="q-and-a">
+            <h2 style="text-align: center; font-size: 3em;">Q&amp;A</h2>
+            <ul type="disc">
+                <li class="q-list">
+                    <div class="q-box">
+                        <p id="q1" class="question">レッスンの時間になっても講師からコールが無い場合はどうすればいいですか。<span><img src="image/down.png" alt="down image" class="down-image active-inline"></span></p>
+                        <p id="a1" class="answer">再度コールボタンを押してみてください。レッスン開始時刻が過ぎますとマイページから「レッスン状況の確認」から「トレーナーにコールする」ボタンが表示されますのでそちらをクリックしてください。</p>
+                    </div>
+                </li>
+                <li class="q-list">
+                    <div class="q-box">
+                        <p id="q2" class="question">領収書は発行してもらえますか。<span><img src="image/down.png" alt="down image" class="down-image active-inline"></span></p>
+                        <p id="a2" class="answer">クレジットカードの明細、銀行口座振替されている銀行口座の取引履歴を領収書としてご利用いただけます。</p>
+                    </div>
+                </li>
+                <li class="q-list">
+                    <div class="q-box">
+                        <p id="q3" class="question">レッスンの予約はどのようにすればいいですか。<span><img src="image/down.png" alt="down image" class="down-image active-inline"></span></p>
+                        <p id="a3" class="answer">マイページの「レッスン予約」ページから、ご希望の時間、トレーナーなどから選択いただき、ご予約ください。レッスン開始5分前まで予約が可能です。</p>
+                    </div>
+                </li>
+                <li class="q-list">
+                    <div class="q-box">
+                        <p id="q4" class="question">コースの変更は可能ですか。<span><img src="image/down.png" alt="down image" class="down-image active-inline"></span></p>
+                        <p id="a4" class="answer">マイページの「料金・お支払」ページよりプラン変更手続きが行えます。</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul>
+                        <li><a href="#">English school</a></li>
+                        <li><a href="#">採用情報</a></li>
+                        <li><a href="#">ニュース</a></li>
+                        <li><a href="#">ポリシー</a></li>
+                        <li><a href="#">企業情報</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+
+        </div>
+        <hr size="60px" width="100%" color="#fff">
+        <p style="color: #fff; margin-left: 100px;">&copy;KKK</p>
+
+
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
