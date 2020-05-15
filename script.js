@@ -68,13 +68,13 @@ $(function() {
         if ($answerObject.hasClass("active")) {
             $answerObject.slideUp(300);
             $answerObject.removeClass("active");
-            $downImage.attr("src", "image/down.png");
+            $downImage.attr("src", "https://github.com/penta-serv/penta-serv.github.io/blob/master/up.png?raw=true");
             $downImage.css("width", "2%");
             //alert("remove");
         } else {
             $answerObject.slideDown(300);
             $answerObject.addClass("active");
-            $downImage.attr("src", "image/up.png");
+            $downImage.attr("src", "https://github.com/penta-serv/penta-serv.github.io/blob/master/up.png?raw=true");
             $downImage.css("width", "5%");
             //alert("add");
         }
