@@ -68,7 +68,7 @@ $(function() {
         if ($answerObject.hasClass("active")) {
             $answerObject.slideUp(300);
             $answerObject.removeClass("active");
-            $downImage.attr("src", "https://github.com/penta-serv/penta-serv.github.io/blob/master/up.png?raw=true");
+            $downImage.attr("src", "https://github.com/penta-serv/penta-serv.github.io/blob/master/down.png?raw=true");
             $downImage.css("width", "2%");
             //alert("remove");
         } else {
